@@ -19,6 +19,10 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+a, a:focus, a:active, a:hover {
+    text-decoration: none;
+}
+
 header {
     padding: 1rem 5rem;
     min-height: 8vh;
@@ -47,7 +51,6 @@ header {
 }
 
 .nav .nav-item .nav-link {
-    text-decoration: none;
     padding: 1rem;
     color: var(--primary);
     transition: all linear .3s;
